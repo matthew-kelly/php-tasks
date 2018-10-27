@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Document</title>
+    <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
       header {
@@ -14,6 +14,15 @@
     </style>
   </head>
   <body>
+  <header>
+    <h1>Home</h1>
+  </header>
+  <nav>
+    <ul>
+      <li><a href="/about">About Us</a></li>
+      <li><a href="/contact">Contact Us</a></li>
+    </ul>
+  </nav>
     <?php foreach ($tasks as $task) : ?>
       <li>
         <?php if ($task->completed) : ?>
