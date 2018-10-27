@@ -1,3 +1,3 @@
-# php-tasks
+# php-tutorial
 
-Todo list app built using PHP on a MySQL database.
+Tutorial app built using PHP on a MySQL database.
